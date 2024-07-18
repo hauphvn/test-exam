@@ -1,5 +1,6 @@
 import './App.css'
 import LongestPalindromicSubsequence from "./components/LongestPalindromicSubsequence.tsx";
+import Board from "./components/Sodoku/Board.tsx";
 
 function App() {
 
@@ -8,6 +9,8 @@ function App() {
             <div>
                 <hr/>
                 <LongestPalindromicSubsequence/>
+                <hr/>
+                <Board/>
                 <hr/>
             </div>
         </>
